@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+}
+nav i{
+    position: absolute;
+}
+nav img{
+    position: absolute;
+    left: 100px;
+    right: 10px;
+    z-index: 1;
+    height: 75px;
+}
+.fa-bars{
+    text-align: left;
+    text-decoration: none;
+    color:#F9D978;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#menu-desktop{
+    text-align: right;
+}
+#menu-desktop li{
+    list-style: none;
+    display: inline;
+}
+#menu-desktop li a{
+    text-decoration: none;
+    padding: 30px 40px;
+    color: #F9D978;
+    display: inline-block;
+    margin-right: -2;
+    font-size: 80%;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+}
+#menu-desktop li a:hover{
+    background-color: #F9D978;
+    color: black;
+    transition-duration: 0.3s;
+}
